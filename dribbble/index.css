@@ -1,0 +1,676 @@
+ 
+    body{
+        padding :0%;
+        margin :0%;
+        background-color: hsl(0, 0%, 97%);
+    }
+    .navbar{
+        
+        top: 1%;
+        display: flex;
+        font-family: 'Archivo';
+        font-weight:bold ;
+        align-items: center;
+        justify-content: space-evenly;
+        padding:1% 0% 5% 0%;
+        margin-bottom:10px ;
+        
+    }
+
+    .navbar a{
+        text-decoration: none;
+        color:black;
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        padding: 0.3rem;
+        
+
+        
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        padding: 3px 0px 2px;
+        z-index: 2;
+      }
+
+      .dropdown-content img{
+        width:180% ;
+        height: 100%;
+        border-radius:6%;
+        background-color: none;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+   
+    
+    
+    .search-container{
+        width: 18%;
+        height: 20%;
+        border: 1px solid #eae8e8;
+        border-radius: 25px;
+        font-size: 20px;
+        background-color: white;
+        margin: none;
+        background-position: 10px 10px; 
+        padding: 6px 6px 6px 6px;
+
+    }
+    .search-container input{
+        width: 70%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+    }
+
+    .signup{
+        color: white !important;
+        width:4%;
+        text-align:center;
+        background-color: rgb(0, 0, 0);
+        border-radius: 25px;
+        padding: 15px  !important;
+        font-size: 1rem;
+      
+       
+    }
+    .signup:hover{
+        background-color: rgb(100, 100, 100)
+    }
+   
+    .million {
+        font-size: 1rem;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 1px 1px 5px black;
+        width: 18% !important;
+        justify-content: center;
+        margin: auto;
+        padding: 1% 1%;
+        background-color:black;
+
+       }
+
+    .million a{
+          text-decoration: none;
+          color:white;
+          
+
+    }
+    
+    .text{
+        text-align: center;
+        margin: auto;
+        font-family: 'Merriweather', serif;
+        padding: 0% 0%;
+    }
+    .fline{
+        font-size:4.0rem;
+        padding: 0% 4% ;
+    }
+    .started{
+        text-align: center;
+        border-radius: 25px;
+        width: 6%;
+        justify-content: center;
+        margin: auto;
+        padding: 1% 1.5%;
+        background-color: black;
+    }
+
+    .started a{
+        padding:0% 0% 9%;
+        text-decoration: none;
+        color:white;
+    }
+    
+    .sline{
+        margin: auto;
+        font-family:inherit;
+            font-size:3.0rem;
+            padding: 0% 3% 10%;
+            text-align: center;
+           
+    }
+
+    .browse{
+        
+        box-shadow:1px 1px 5px black; ;
+        text-align: center;
+        margin: auto;
+        color: black !important;
+        width:13%;
+        height: 30%;
+        background-color: white(0, 0, 0);
+        border-radius: 25px;
+       padding: 1%;
+        font-size: 14px;
+        margin-bottom: 8%;
+     }
+
+    .browse a{
+            font-size: 1rem;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: none;
+            color:black;
+            justify-content: center;
+            margin: auto;
+     }
+     .orgfield{
+        padding: 7% 0% 5%;
+        text-align: center;
+        margin: auto;
+        font-family: 'Merriweather', serif;
+        background-color: hsla(43, 100%, 55%, 0.584);
+        
+     }
+        .stext a{
+            font-size: 1rem;
+            font-family: sans-serif;
+
+        }
+        .stextt a{
+            font-size: 1rem;
+            font-family: sans-serif;
+            position: relative;
+            bottom: 60px;
+
+        }
+        .stexttt a{
+            font-size: 1rem;
+            font-family: sans-serif;
+            position: relative;
+            bottom: 60px;
+
+        }
+
+    
+    .Ltext{
+        font-size:4.0rem;
+        padding: 0% 4% ;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .container{
+        text-align: center;
+        display: flex;
+
+    }
+
+    .boxes{
+        justify-content: space-evenly;
+    }
+
+    .now{
+        
+        display:inline;
+        font-size: 1.1rem;
+        color: white !important;
+        text-align: center;
+        border-radius: 25px;
+        font-family: sans-serif;
+        width: 10%;
+        
+        margin-right: auto;
+        padding: 1% 1.5%;
+        background-color: black;
+    }
+
+    .now a{
+        padding:10% 0% 9%;
+        text-decoration: none;
+        color: white !important;
+        justify-content: space-around;
+        margin-left: 0%;
+    }
+
+    .now:hover{
+        background-color: rgb(143, 141, 141);
+    }
+
+    .hiring{
+        
+        display: inline;
+        font-size: 1.1rem;
+        color: black !important;
+        text-align: center;
+        border-radius: 25px;
+        font-family: sans-serif;
+        width: 11%;
+        
+        margin-left: 1%;
+        padding: 1% 1.5%;
+        background-color: white;
+    }
+
+    .hiring a{
+        padding:10% 0% 9%;
+        text-decoration: none;
+        color:black !important;
+        justify-content: space-around;
+        margin-right: 2px;
+    }
+
+    .hiring:hover{
+        background-color: rgb(244, 241, 241);
+    }
+
+    .join{
+        color: black;
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        padding: 3%;
+    }
+    .join a{
+        color: black;
+    }
+
+    .lastrow{
+        color: black;
+        font-family:sans-serif ;
+        font-weight:bold ;
+        justify-content: space-evenly;
+        padding:1%;
+        margin:auto ;
+        display: flex;
+     
+    }
+
+    .lastrow a{
+        padding: 11%;
+        text-decoration: none;
+        color:black;
+        font-size: 0.9rem;
+        font-family: sans-serif;
+        padding: 0.3rem 0rem 3rem;
+        align-items: center;
+        
+         
+    }
+    .icons{
+        display: flex;
+        padding: 0.2%;
+        justify-content: space-between;
+        gap: 9px;
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        text-decoration: none;
+        flex-direction: row;
+        color: grey;
+        justify-content: space-between;
+        padding: 0% 1% 0%;
+    }
+
+    .right{
+       
+        font-family:sans-serif ;
+        float: right;
+        padding: 0.8% 0.4% 5%;
+        margin-bottom:10px ;
+        display: flex-start;
+        text-decoration: none;
+
+    }
+    .right a{
+        text-decoration: none;
+        color: grey;
+        margin-right: 12px;
+    }
+
+    .left{
+        float:left ;
+        color: grey;
+        font-family:sans-serif ;
+        padding: 0.9% 0.4% 5%;
+        margin-bottom:10px ;
+        display: flex;
+        text-decoration: none;
+    
+    }
+    .left a{
+        text-decoration: none;
+        color: grey;
+        margin-left: 12px;
+        padding: 0% 0%;
+    }
+
+    .scroll{
+        padding: 4%;
+        transform: perspective(300px) translate3d(0, 0, 0);
+         opacity: 1;
+    }
+
+    .scroll img{
+        width: 270px;
+        height: 340px;
+        border-radius:15px;
+        margin-left: 25px;
+
+    }
+
+    
+    .posts img{
+        width: 300px;
+        height: 250px;
+        margin-bottom: 50px;   
+        margin-left: 58px;     
+        border-radius: 12px;
+    }
+
+    .sscroll{
+        padding:2%;
+        transform: perspective(300px) translate3d(0, 0, 0);
+         opacity: 1;
+    }
+
+    .sscroll img{
+        width: 250px;
+        height: 200px;
+        border-radius:15px;
+        margin-left: 25px;
+    }
+
+
+
+.jobsLtext p{
+    padding: 0% 3% 0% ;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size:4.0rem;
+    font-weight: bold;
+
+}
+.jobsStext p{
+    text-align: center;
+    padding: 0%;
+    margin-bottom:3%;
+    font-size:1.5rem;
+}
+
+.plus{
+   display: flex;
+    border-radius: 25px;
+    width: 6%;
+    justify-content: center;
+    margin: auto;
+    padding: 1% 1.5%;
+    background-color: black;
+    color:white !important;
+    text-decoration: none!important;
+    font-family:sans-serif;
+}
+    
+        
+    
+        .pink{
+            color: rgb(239, 78, 217);
+            display: flex;
+            justify-content: center;
+            font-size:1rem;
+            padding: 3% 0% 0%;
+            font-family: sans-serif;
+            font-weight:300px;
+            
+        }
+
+        .Lfont{
+            display: flex;
+            justify-content: center;
+            font-size:3.4rem;
+            position: relative;
+            bottom: 30px;
+            font-family: 'Merriweather', serif;
+            font-weight: 600px;
+        }
+        
+
+        .dtext{
+            display: flex;
+            justify-content: center;
+            font-size:1.2rem;
+            position: relative;
+            bottom: 60px;
+            font-family: sans-serif;
+        }
+
+        .dtexttwo{
+           text-align: center;
+           font-family: sans-serif;
+           font-size:1.2rem;
+           position: relative;
+           bottom: 70px;
+        }
+        .mo{
+            display: flex;
+            justify-content: center;
+            font-weight:bold;
+            color: rgb(123, 123, 236);
+            font-size: 3.5rem;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .billed{
+            display: flex;
+            justify-content: center;
+            color: black;
+            font-size: 1rem;
+            padding-bottom: 5%;
+        }
+        
+        .today{
+            display: flex;
+            color: white;
+            text-align: center;
+            border-radius: 25px;
+            width: 9%;
+            justify-content: center;
+            text-decoration: none;
+            margin: auto;
+            padding: 1% 1.5%;
+            background-color: black;
+        }
+        .today a{
+            padding: 0% 0% 5%;
+        }
+
+
+        .sides{
+            padding-top: 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        
+        .sec1{
+            
+            text-align: center;
+            display: flex;
+            background-color: rgb(223, 237, 244);
+             padding: 2%;
+             border-radius: 8%;
+             width: 40%;
+             height: 50%;
+             border: 0.1px solid rgb(243, 251, 255);    
+         }
+
+         .sec1 .container1 p{
+            padding: 0% 0% 0% 0%;
+            
+         }
+
+         .audience {
+            font-size: 1.3rem;
+            font-family:sans-serif;
+            margin-left: 1rem!important;
+
+         }
+         .reach{
+            font-size: 3rem;
+
+         }
+
+         .community{
+            font-size: 1.1rem;
+         }
+         .sec2{
+             padding: 2%;
+             text-align: center;
+             display: flex;
+             margin-left: 2rem;
+             background-color: rgb(251, 237, 239);
+             border-radius: 8%;
+             width: 40%;
+             height: 50%;
+             border: 0.1px solid  rgb(251, 237, 239);    
+             }
+             .sec2 .container2 p{
+                padding: 0% 0% 0% 0%;
+                
+                
+             }
+
+             .gethired {
+                color: black;
+                font-size: 1.3rem;
+                font-family:sans-serif;
+                margin-left: 1rem!important;
+             }
+             
+             .brands{
+                font-size: 3rem;
+
+             }
+             .engage{
+                font-size: 1.1rem;
+             }
+             
+             .containerr{
+                display: flex;
+             }
+             .box{
+                margin-left:10%
+             }
+
+             .google{
+                font-size: 1rem;
+                text-align: center;
+                border-radius: 25px;
+                width: 30% ;
+                
+                margin: auto;
+                padding: 1% 1%;
+                background-color:white;
+                border: 1px solid rgb(202, 202, 202);
+               }
+        
+            .google a{
+                  text-decoration: none;
+                  color:rgb(0, 0, 0);
+                  
+        
+             }
+
+
+              .uname .pword {
+                border: 1px solid lightgrey;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-top: 16px;
+                padding-bottom: 25px;
+                border-radius: 5px;
+              }
+
+              .containerrr{
+                display: flex;
+            }
+            
+            .oneimgg{
+                width: 26%;
+               object-fit: cover;
+            }
+            
+            .parentttt{
+                margin-left: 10%;
+                margin-top: 10%;
+                width: 33%;
+
+                
+            }
+            
+            .textone{
+                font-family: sans-serif;
+                font-size: 1.7rem;
+                font-weight: bold;
+            }
+            
+            .hey{
+                text-align: center;
+                border-radius: 30px;
+                text-decoration: none;
+                justify-content: center;
+                border: 1px solid grey;
+                padding: 4% 26%;
+                position: relative;
+                top: 10%;
+                background-color: black;
+                color: white;
+            
+            }
+            
+            .hr-line{
+                margin-top: 19%;
+                margin-left: 3%;
+            }
+            
+            .secondbox{
+                text-align: center;
+                border-radius: 30px;
+                text-decoration: none;
+                justify-content: center;
+                border: 0.1px solid rgb(227, 226, 226);
+                width: 30%;
+                padding: 4% 28%;
+                font-weight: bold;
+                margin-top: 5%;
+            }
+            .secondbox a{
+                text-decoration: none;
+                color: black;
+            }
+            
+            .two {
+                margin-top: 5%;
+                text-align: center;
+                font-size: 0.78rem;
+                padding: 0% 19% 0% 0%;
+                font-family: sans-serif;
+                
+            }
+            
+            .hey i{
+                padding: 0% 3% 0% 0%;
+            }
+            
+            .already{
+                margin-top: 5%;
+                font-family: sans-serif;
+            }
+            
+            
+            
+            
